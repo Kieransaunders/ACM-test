@@ -81,7 +81,7 @@ export default function AssignmentCard({ assignment }: AssignmentCardProps) {
 
 			{/* Due date and points */}
 			<div className="flex flex-wrap items-center gap-4 text-sm">
-				{assignment.due_at ? (
+				{assignment.due_at && typeof dueDateInfo !== 'string' ? (
 					<div className="flex flex-col">
 						<span className={`font-medium ${dueDateInfo.urgencyClass}`}>
 							{dueDateInfo.urgencyText || dueDateInfo.dateStr}

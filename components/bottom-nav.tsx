@@ -52,8 +52,8 @@ const links = [
 		),
 	},
 	{
-		label: 'Story',
-		href: '/story',
+		label: 'Survey',
+		href: '/survey',
 		icon: (
 			<svg
 				viewBox='0 0 15 15'
@@ -63,15 +63,21 @@ const links = [
 				height='18'
 			>
 				<path
-					d='M2.5.5V0H2v.5h.5zm10 0h.5V0h-.5v.5zM4.947 4.724a.5.5 0 00-.894-.448l.894.448zM2.5 8.494l-.447-.223-.146.293.21.251.383-.32zm5 5.997l-.384.32a.5.5 0 00.769 0l-.385-.32zm5-5.996l.384.32.21-.251-.146-.293-.447.224zm-1.553-4.219a.5.5 0 00-.894.448l.894-.448zM8 9.494v-.5H7v.5h1zm-.5-4.497A4.498 4.498 0 013 .5H2a5.498 5.498 0 005.5 5.497v-1zM2.5 1h10V0h-10v1zM12 .5a4.498 4.498 0 01-4.5 4.497v1c3.038 0 5.5-2.46 5.5-5.497h-1zM4.053 4.276l-2 3.995.895.448 2-3.995-.895-.448zM2.116 8.815l5 5.996.769-.64-5-5.996-.769.64zm5.768 5.996l5-5.996-.768-.64-5 5.996.769.64zm5.064-6.54l-2-3.995-.895.448 2 3.995.895-.448zM8 14.49V9.494H7v4.997h1z'
+					d='M11 3h1v1h-1V3zM6 3h1v1H6V3zM1 3h1v1H1V3zm10 4h1v1h-1V7zM6 7h1v1H6V7zM1 7h1v1H1V7zm10 4h1v1h-1v-1zm-5 0h1v1H6v-1zm-5 0h1v1H1v-1z'
+					fill='currentColor'
+				/>
+				<path
+					fillRule='evenodd'
+					clipRule='evenodd'
+					d='M2 1a1 1 0 00-1 1v11a1 1 0 001 1h11a1 1 0 001-1V2a1 1 0 00-1-1H2zM0 2a2 2 0 012-2h11a2 2 0 012 2v11a2 2 0 01-2 2H2a2 2 0 01-2-2V2z'
 					fill='currentColor'
 				/>
 			</svg>
 		),
 	},
 	{
-		label: 'Recipes',
-		href: '/recipes',
+		label: 'Assignments',
+		href: '/assignments',
 		icon: (
 			<svg
 				viewBox='0 0 15 15'
@@ -81,8 +87,8 @@ const links = [
 				height='18'
 			>
 				<path
-					d='M7.5 15V7m0 .5v3m0-3a4 4 0 00-4-4h-3v3a4 4 0 004 4h3m0-3h3a4 4 0 004-4v-3h-3a4 4 0 00-4 4v3zm0 0l4-4m-4 7l-4-4'
-					stroke='currentColor'
+					d='M3.5 0v.5V0zm0 15v.5V15zm0-15h8V0h-8v1zm8 0v.5a.5.5 0 00.5-.5h-.5zm0 0h.5a.5.5 0 00-.146-.354L11.5 0zm3 3h.5a.5.5 0 00-.146-.354L14.5 3zm-3-3v3h1V0h-1zm.5 2.5h3v-1h-3v1zm-.5.5v12h1V3h-1zM11.5 15h-8v1h8v-1zm-7.5-.5v-14H3v14h1zM11.146.146l3 3 .708-.707-3-3-.708.707zM3.5 15.5a.5.5 0 01-.5-.5H2a1.5 1.5 0 001.5 1.5v-1zm8 1a1.5 1.5 0 001.5-1.5h-1a.5.5 0 01-.5.5v1zM5 5h5V4H5v1zm0 2h5V6H5v1zm0 2h3V8H5v1z'
+					fill='currentColor'
 				/>
 			</svg>
 		),

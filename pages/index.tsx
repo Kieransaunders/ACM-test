@@ -1,32 +1,33 @@
 import Page from '@/components/page'
 import Section from '@/components/section'
+import Link from 'next/link'
 
 const Index = () => (
 	<Page>
 		<Section>
 			<h2 className='text-xl font-semibold text-zinc-800 dark:text-zinc-200'>
-				We grow a lot of rice.
+				Welcome to MyACM
 			</h2>
 
 			<div className='mt-2'>
 				<p className='text-zinc-600 dark:text-zinc-400'>
-					You love rice, and so does the rest of the world. In the crop year
-					2008/2009, the milled rice production volume amounted to over{' '}
-					<span className='font-medium text-zinc-900 dark:text-zinc-50'>
-						448 million tons
-					</span>{' '}
-					worldwide.
+					MyACM is your student assignments dashboard for Canvas LMS. View all your assignments from all your courses in one convenient place.
 				</p>
 
 				<br />
 
+				<Link
+					href='/assignments'
+					className='inline-block px-4 py-2 bg-indigo-600 hover:bg-indigo-700 text-white rounded-md transition-colors'
+				>
+					View My Assignments
+				</Link>
+
+				<br />
+				<br />
+
 				<p className='text-sm text-zinc-600 dark:text-zinc-400'>
-					<a
-						href='https://github.com/mvllow/next-pwa-template'
-						className='underline'
-					>
-						Source
-					</a>
+					Built with Next.js and Canvas LMS API
 				</p>
 			</div>
 		</Section>

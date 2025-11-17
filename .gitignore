@@ -7,3 +7,7 @@ node_modules
 # Generated via next-pwa
 **/public/workbox**
 **/public/sw**
+
+# Environment variables (contains sensitive API credentials)
+.env.local
+.env*.local
